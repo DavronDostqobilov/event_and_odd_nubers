@@ -9,5 +9,6 @@ var_int=var_int//10
 x3=var_int%10
 x4=var_int//10
 #Create a variable "sum_odd" and assign it 0.
-print(x1*(x1%2)+x2*(x2%2)+x3*(x3%2)+x4*(x4%2))
+sum_old=x1*(x1%2)+x2*(x2%2)+x3*(x3%2)+x4*(x4%2)
+print(sum_old)
 #Find the sum of the odd digits in the variable "var_int".
